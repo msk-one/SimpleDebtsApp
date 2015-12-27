@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66255B981C30282200B74A23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66255B971C30282200B74A23 /* AppDelegate.swift */; };
+		66255B9A1C30282200B74A23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66255B991C30282200B74A23 /* ViewController.swift */; };
+		66255B9D1C30282200B74A23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66255B9B1C30282200B74A23 /* Main.storyboard */; };
+		66255B9F1C30282300B74A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66255B9E1C30282300B74A23 /* Assets.xcassets */; };
+		66255BA21C30282300B74A23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66255BA01C30282300B74A23 /* LaunchScreen.storyboard */; };
+		66255BAD1C30282300B74A23 /* SimpleDebtsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66255BAC1C30282300B74A23 /* SimpleDebtsAppTests.swift */; };
+		66255BB81C30282300B74A23 /* SimpleDebtsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66255BB71C30282300B74A23 /* SimpleDebtsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66255BA91C30282300B74A23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66255B8C1C30282100B74A23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66255B931C30282200B74A23;
+			remoteInfo = SimpleDebtsApp;
+		};
+		66255BB41C30282300B74A23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66255B8C1C30282100B74A23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66255B931C30282200B74A23;
+			remoteInfo = SimpleDebtsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66255B941C30282200B74A23 /* SimpleDebtsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDebtsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66255B971C30282200B74A23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66255B991C30282200B74A23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66255B9C1C30282200B74A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66255B9E1C30282300B74A23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66255BA11C30282300B74A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66255BA31C30282300B74A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66255BA81C30282300B74A23 /* SimpleDebtsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDebtsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66255BAC1C30282300B74A23 /* SimpleDebtsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDebtsAppTests.swift; sourceTree = "<group>"; };
+		66255BAE1C30282300B74A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66255BB31C30282300B74A23 /* SimpleDebtsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDebtsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66255BB71C30282300B74A23 /* SimpleDebtsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDebtsAppUITests.swift; sourceTree = "<group>"; };
+		66255BB91C30282300B74A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66255B911C30282200B74A23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66255BA51C30282300B74A23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66255BB01C30282300B74A23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66255B8B1C30282100B74A23 = {
+			isa = PBXGroup;
+			children = (
+				66255B961C30282200B74A23 /* SimpleDebtsApp */,
+				66255BAB1C30282300B74A23 /* SimpleDebtsAppTests */,
+				66255BB61C30282300B74A23 /* SimpleDebtsAppUITests */,
+				66255B951C30282200B74A23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66255B951C30282200B74A23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66255B941C30282200B74A23 /* SimpleDebtsApp.app */,
+				66255BA81C30282300B74A23 /* SimpleDebtsAppTests.xctest */,
+				66255BB31C30282300B74A23 /* SimpleDebtsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66255B961C30282200B74A23 /* SimpleDebtsApp */ = {
+			isa = PBXGroup;
+			children = (
+				66255B971C30282200B74A23 /* AppDelegate.swift */,
+				66255B991C30282200B74A23 /* ViewController.swift */,
+				66255B9B1C30282200B74A23 /* Main.storyboard */,
+				66255B9E1C30282300B74A23 /* Assets.xcassets */,
+				66255BA01C30282300B74A23 /* LaunchScreen.storyboard */,
+				66255BA31C30282300B74A23 /* Info.plist */,
+			);
+			path = SimpleDebtsApp;
+			sourceTree = "<group>";
+		};
+		66255BAB1C30282300B74A23 /* SimpleDebtsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				66255BAC1C30282300B74A23 /* SimpleDebtsAppTests.swift */,
+				66255BAE1C30282300B74A23 /* Info.plist */,
+			);
+			path = SimpleDebtsAppTests;
+			sourceTree = "<group>";
+		};
+		66255BB61C30282300B74A23 /* SimpleDebtsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66255BB71C30282300B74A23 /* SimpleDebtsAppUITests.swift */,
+				66255BB91C30282300B74A23 /* Info.plist */,
+			);
+			path = SimpleDebtsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66255B931C30282200B74A23 /* SimpleDebtsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66255BBC1C30282300B74A23 /* Build configuration list for PBXNativeTarget "SimpleDebtsApp" */;
+			buildPhases = (
+				66255B901C30282200B74A23 /* Sources */,
+				66255B911C30282200B74A23 /* Frameworks */,
+				66255B921C30282200B74A23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleDebtsApp;
+			productName = SimpleDebtsApp;
+			productReference = 66255B941C30282200B74A23 /* SimpleDebtsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66255BA71C30282300B74A23 /* SimpleDebtsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66255BBF1C30282300B74A23 /* Build configuration list for PBXNativeTarget "SimpleDebtsAppTests" */;
+			buildPhases = (
+				66255BA41C30282300B74A23 /* Sources */,
+				66255BA51C30282300B74A23 /* Frameworks */,
+				66255BA61C30282300B74A23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66255BAA1C30282300B74A23 /* PBXTargetDependency */,
+			);
+			name = SimpleDebtsAppTests;
+			productName = SimpleDebtsAppTests;
+			productReference = 66255BA81C30282300B74A23 /* SimpleDebtsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66255BB21C30282300B74A23 /* SimpleDebtsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66255BC21C30282300B74A23 /* Build configuration list for PBXNativeTarget "SimpleDebtsAppUITests" */;
+			buildPhases = (
+				66255BAF1C30282300B74A23 /* Sources */,
+				66255BB01C30282300B74A23 /* Frameworks */,
+				66255BB11C30282300B74A23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66255BB51C30282300B74A23 /* PBXTargetDependency */,
+			);
+			name = SimpleDebtsAppUITests;
+			productName = SimpleDebtsAppUITests;
+			productReference = 66255BB31C30282300B74A23 /* SimpleDebtsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66255B8C1C30282100B74A23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Msk;
+				TargetAttributes = {
+					66255B931C30282200B74A23 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6573RP7V6U;
+					};
+					66255BA71C30282300B74A23 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6573RP7V6U;
+						TestTargetID = 66255B931C30282200B74A23;
+					};
+					66255BB21C30282300B74A23 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 6573RP7V6U;
+						TestTargetID = 66255B931C30282200B74A23;
+					};
+				};
+			};
+			buildConfigurationList = 66255B8F1C30282100B74A23 /* Build configuration list for PBXProject "SimpleDebtsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66255B8B1C30282100B74A23;
+			productRefGroup = 66255B951C30282200B74A23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66255B931C30282200B74A23 /* SimpleDebtsApp */,
+				66255BA71C30282300B74A23 /* SimpleDebtsAppTests */,
+				66255BB21C30282300B74A23 /* SimpleDebtsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66255B921C30282200B74A23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66255BA21C30282300B74A23 /* LaunchScreen.storyboard in Resources */,
+				66255B9F1C30282300B74A23 /* Assets.xcassets in Resources */,
+				66255B9D1C30282200B74A23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66255BA61C30282300B74A23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66255BB11C30282300B74A23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66255B901C30282200B74A23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66255B9A1C30282200B74A23 /* ViewController.swift in Sources */,
+				66255B981C30282200B74A23 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66255BA41C30282300B74A23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66255BAD1C30282300B74A23 /* SimpleDebtsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66255BAF1C30282300B74A23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66255BB81C30282300B74A23 /* SimpleDebtsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66255BAA1C30282300B74A23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66255B931C30282200B74A23 /* SimpleDebtsApp */;
+			targetProxy = 66255BA91C30282300B74A23 /* PBXContainerItemProxy */;
+		};
+		66255BB51C30282300B74A23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66255B931C30282200B74A23 /* SimpleDebtsApp */;
+			targetProxy = 66255BB41C30282300B74A23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66255B9B1C30282200B74A23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66255B9C1C30282200B74A23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66255BA01C30282300B74A23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66255BA11C30282300B74A23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66255BBA1C30282300B74A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66255BBB1C30282300B74A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66255BBD1C30282300B74A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleDebtsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msk.com.SimpleDebtsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66255BBE1C30282300B74A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleDebtsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msk.com.SimpleDebtsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66255BC01C30282300B74A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleDebtsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msk.com.SimpleDebtsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleDebtsApp.app/SimpleDebtsApp";
+			};
+			name = Debug;
+		};
+		66255BC11C30282300B74A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleDebtsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msk.com.SimpleDebtsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleDebtsApp.app/SimpleDebtsApp";
+			};
+			name = Release;
+		};
+		66255BC31C30282300B74A23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleDebtsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msk.com.SimpleDebtsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleDebtsApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		66255BC41C30282300B74A23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleDebtsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = msk.com.SimpleDebtsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleDebtsApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66255B8F1C30282100B74A23 /* Build configuration list for PBXProject "SimpleDebtsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66255BBA1C30282300B74A23 /* Debug */,
+				66255BBB1C30282300B74A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66255BBC1C30282300B74A23 /* Build configuration list for PBXNativeTarget "SimpleDebtsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66255BBD1C30282300B74A23 /* Debug */,
+				66255BBE1C30282300B74A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66255BBF1C30282300B74A23 /* Build configuration list for PBXNativeTarget "SimpleDebtsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66255BC01C30282300B74A23 /* Debug */,
+				66255BC11C30282300B74A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66255BC21C30282300B74A23 /* Build configuration list for PBXNativeTarget "SimpleDebtsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66255BC31C30282300B74A23 /* Debug */,
+				66255BC41C30282300B74A23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66255B8C1C30282100B74A23 /* Project object */;
+}
