@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		66255B981C30282200B74A23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66255B971C30282200B74A23 /* AppDelegate.swift */; };
-		66255B9A1C30282200B74A23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66255B991C30282200B74A23 /* ViewController.swift */; };
 		66255B9D1C30282200B74A23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66255B9B1C30282200B74A23 /* Main.storyboard */; };
 		66255B9F1C30282300B74A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66255B9E1C30282300B74A23 /* Assets.xcassets */; };
 		66255BA21C30282300B74A23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66255BA01C30282300B74A23 /* LaunchScreen.storyboard */; };
 		66255BAD1C30282300B74A23 /* SimpleDebtsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66255BAC1C30282300B74A23 /* SimpleDebtsAppTests.swift */; };
 		66255BB81C30282300B74A23 /* SimpleDebtsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66255BB71C30282300B74A23 /* SimpleDebtsAppUITests.swift */; };
+		663783AA1C33E9BD00FEAB2A /* OverviewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663783A91C33E9BD00FEAB2A /* OverviewTableViewController.swift */; };
+		663783AC1C33EA0000FEAB2A /* DebtTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663783AB1C33EA0000FEAB2A /* DebtTableViewController.swift */; };
+		66A906D61C35F73500FEEB07 /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A906D51C35F73500FEEB07 /* CoreSpotlight.framework */; };
+		66A906D81C35F74E00FEEB07 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A906D71C35F74E00FEEB07 /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		66255B941C30282200B74A23 /* SimpleDebtsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDebtsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66255B971C30282200B74A23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		66255B991C30282200B74A23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		66255B9C1C30282200B74A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		66255B9E1C30282300B74A23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66255BA11C30282300B74A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		66255BB31C30282300B74A23 /* SimpleDebtsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleDebtsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66255BB71C30282300B74A23 /* SimpleDebtsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDebtsAppUITests.swift; sourceTree = "<group>"; };
 		66255BB91C30282300B74A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		663783A91C33E9BD00FEAB2A /* OverviewTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverviewTableViewController.swift; sourceTree = "<group>"; };
+		663783AB1C33EA0000FEAB2A /* DebtTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebtTableViewController.swift; sourceTree = "<group>"; };
+		66A906D51C35F73500FEEB07 /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		66A906D71C35F74E00FEEB07 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A906D81C35F74E00FEEB07 /* MobileCoreServices.framework in Frameworks */,
+				66A906D61C35F73500FEEB07 /* CoreSpotlight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +85,8 @@
 		66255B8B1C30282100B74A23 = {
 			isa = PBXGroup;
 			children = (
+				66A906D71C35F74E00FEEB07 /* MobileCoreServices.framework */,
+				66A906D51C35F73500FEEB07 /* CoreSpotlight.framework */,
 				66255B961C30282200B74A23 /* SimpleDebtsApp */,
 				66255BAB1C30282300B74A23 /* SimpleDebtsAppTests */,
 				66255BB61C30282300B74A23 /* SimpleDebtsAppUITests */,
@@ -98,7 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				66255B971C30282200B74A23 /* AppDelegate.swift */,
-				66255B991C30282200B74A23 /* ViewController.swift */,
+				663783A91C33E9BD00FEAB2A /* OverviewTableViewController.swift */,
+				663783AB1C33EA0000FEAB2A /* DebtTableViewController.swift */,
 				66255B9B1C30282200B74A23 /* Main.storyboard */,
 				66255B9E1C30282300B74A23 /* Assets.xcassets */,
 				66255BA01C30282300B74A23 /* LaunchScreen.storyboard */,
@@ -259,8 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66255B9A1C30282200B74A23 /* ViewController.swift in Sources */,
+				663783AA1C33E9BD00FEAB2A /* OverviewTableViewController.swift in Sources */,
 				66255B981C30282200B74A23 /* AppDelegate.swift in Sources */,
+				663783AC1C33EA0000FEAB2A /* DebtTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,10 +412,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SimpleDebtsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = msk.com.SimpleDebtsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -411,10 +425,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SimpleDebtsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = msk.com.SimpleDebtsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -485,6 +501,7 @@
 				66255BBE1C30282300B74A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66255BBF1C30282300B74A23 /* Build configuration list for PBXNativeTarget "SimpleDebtsAppTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +510,7 @@
 				66255BC11C30282300B74A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66255BC21C30282300B74A23 /* Build configuration list for PBXNativeTarget "SimpleDebtsAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +519,7 @@
 				66255BC41C30282300B74A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
